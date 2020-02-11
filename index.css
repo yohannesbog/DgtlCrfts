@@ -1,0 +1,179 @@
+
+.picbox {
+    border: 2px solid green;
+    width:100%;
+    height: 400px;
+    display: block;
+    overflow: none;
+    background-image: url("image/atl-sky.jpg");
+    background-color: gray;
+}
+.tool-bar li {
+    float: right;
+    margin-right: 100px;
+    list-style-type: none;
+  
+}
+a {
+    text-decoration: none;
+    color: green
+
+}
+a:hover{
+    color: aliceblue
+}
+
+img {
+    width: 200px;
+    height: 80px;
+    display: inline-block; 
+    align-self: auto;
+    margin-left: 600px;
+    padding-top: 80px;
+    display: block;
+    overflow: none
+
+}
+
+.title li {
+     text-align: center;
+     font-size: 60px; 
+     padding-top: 0px;
+     list-style-type: none;
+     color: aliceblue
+} 
+
+.sub-title {
+    line-height: 1.5;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0;
+    color: aliceblue
+    
+
+}
+.arrow {
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    background-color: black
+}
+.circle-box {
+    padding-top: 0px;
+    border: 1px solid green;
+    width:100%;
+    height: 35%; 
+    display: block
+}
+
+ .hashtag{
+    background: whitesmoke;
+    border: 15px solid rgb(163, 201, 60);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 120px;
+    font-size: 50px;
+    color: black;
+    line-height: 200px;
+    text-align: center;
+    display: inline-block;
+    overflow: none 
+}
+.at p {
+    display: inline;
+}
+.at{
+    background: whitesmoke;
+    border: 15px solid rgb(112, 170, 112);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 200px;
+    font-size: 50px;
+    color: black;
+    line-height: 200px;
+    text-align: center;
+    display: block;
+    float: left
+}
+.circle-box > div > span {
+    display: inline;
+    font-size: 10px;
+
+
+}
+.hashtag p {
+    display: inline;
+}
+.dollar{
+    background: whitesmoke;
+    border: 15px solid rgb(121, 77, 163);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 120px;
+    font-size: 50px;
+    color: black;
+    line-height: 200px;
+    text-align: center;
+    display: inline-block
+} 
+.dollar p {
+    display: inline;
+    overflow-inline: none
+}
+
+.circle-box > div p {
+    margin-top: 0px;
+    margin-left: 60px;
+    padding-top: 1px;
+    padding-right: 10px;
+    font-size: 43px;
+    overflow-inline: none
+
+
+}  
+
+.names{
+   text-align: center;
+    margin-left: 300px; 
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 70px;
+
+}
+
+.description li{
+text-decoration: none;
+list-style-type: none;
+padding-left: 200px;
+display: inline-block
+
+}
+
+.footer-box {
+display: block;
+background-color: rgb(36, 34, 34);
+border: 1px solid green;
+width:100%;
+height: 100%;
+margin-left: 0px;
+padding: 20px
+}
+
+.footer li {
+    float: left;
+    margin-left: 250px;
+    text-decoration: none;
+    list-style-type: none;
+    color:rgb(161, 158, 158)}
+
+.ftcopy-right {
+    text-align: center;
+    color: rgb(161, 161, 159)
+}
