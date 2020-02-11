@@ -65,7 +65,8 @@ img {
     border: 0px solid green;
     width:100%;
     height: 35%; 
-    display: block
+    display: block;
+    background-color: rgb(147, 202, 184)
 }
 
  .hashtag{
