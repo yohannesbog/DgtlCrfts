@@ -1,4 +1,33 @@
 
+
+html {
+    overflow: hidden;
+    height: 100%;
+    background-color: rgb(147, 202, 184)
+
+}
+
+body {
+    width:100%;
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    overflow: hiden;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-cont{
+    border: 1px solid green;
+    width:100%;
+    height: 100%;
+    overflow: scroll;
+
+}
+
 .picbox {
     border: 0px solid green;
     width:100%;
@@ -64,7 +93,6 @@ img {
     padding-top: 0px;
     border: 0px solid green;
     width:100%;
-    height: 35%; 
     display: block;
     background-color: rgb(147, 202, 184)
 }
@@ -155,7 +183,7 @@ img {
 text-decoration: none;
 list-style-type: none;
 padding-left: 200px;
-display: inline-block
+display: inline-block;
 
 }
 
@@ -164,19 +192,24 @@ display: block;
 background-color: rgb(36, 34, 34);
 border: 1px solid green;
 width:100%;
-height: 100%;
 margin-left: 0px;
-padding: 20px
 }
 
 .footer li {
+
     float: left;
     margin-left: 250px;
     text-decoration: none;
     list-style-type: none;
-    color:rgb(161, 158, 158)}
+    color:rgb(161, 158, 158);
+    overflow: scroll}
 
 .ftcopy-right {
     text-align: center;
     color: rgb(161, 161, 159)
+}
+
+.bx-title {
+    font-size: 36px;
+    text-align: center
 }
